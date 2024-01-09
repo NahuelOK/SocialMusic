@@ -1,0 +1,8 @@
+.verCard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8%;
+    justify-content: center;
+    padding-top: 3%;
+    background-color: black;
+}
