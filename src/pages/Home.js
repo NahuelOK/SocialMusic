@@ -1,11 +1,10 @@
-import NavBar from "../components/NavBar/NavBar.js";
-import VerCard from "../components/VerCards/VerCards.js";
-
+import NavBar from "../components/NavBar-Panel/NavBar-Panel.js";
+import MostrarPosts from "../components/MostrarPosts/MostrarPosts.js"
 const Home = ()=>{
     return(
         <div>
            <NavBar/>
-           <VerCard/>
+           <MostrarPosts/>
         </div>
     )
 }
