@@ -1,5 +1,6 @@
 import NavBar from "../components/NavBar-Panel/NavBar-Panel.js";
 import MostrarPosts from "../components/MostrarPosts/MostrarPosts.js"
+
 const Home = ()=>{
     return(
         <div>

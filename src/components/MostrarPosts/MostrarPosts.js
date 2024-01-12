@@ -1,41 +1,21 @@
-import Card from "../Card/Card.js"
+import SubirRecomendacion from "../Subir-Recomendacion/Subir-Recomendacion.js"
+import Postt from "../Postt/Postt.js"
 import "./mostrarPosts.css"
 
 const VerCard = ()=>{
     return(
         <div className='verCard'> 
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
+           <SubirRecomendacion/>
+           <Postt/>
+           <Postt/>
+           <Postt/>
+           <Postt/>
+           <Postt/>
+           <Postt/>
+           <Postt/>
+           <Postt/>
+           <Postt/>
+
         </div>
     )
 }
